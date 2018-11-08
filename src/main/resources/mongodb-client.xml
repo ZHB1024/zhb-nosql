@@ -33,10 +33,10 @@
       </constructor-arg>
     </bean>
     
-    <mongo:repositories base-package="com.zhb.forever.mongodb.collection"/>
+    <mongo:repositories base-package="com.zhb.forever.nosql.mongodb.collection"/>
     
     <!-- 自动扫描以下包的有Doucment注解的类 -->
-    <mongo:mapping-converter id="mappingConverter" base-package="com.zhb.forever.mongodb.collection"
+    <mongo:mapping-converter id="mappingConverter" base-package="com.zhb.forever.nosql.mongodb.collection"
                type-mapper-ref="defaultMongoTypeMapper">
     </mongo:mapping-converter>
  
@@ -46,7 +46,7 @@
        <constructor-arg name="mongoConverter" ref="mappingConverter"/> 
     </bean>   
     
-    <bean id="mongoDBClient" class="com.zhb.forever.mongodb.client.impl.MongoDBClientImpl">
+    <bean id="mongoDBClient" class="com.zhb.forever.nosql.mongodb.client.impl.MongoDBClientImpl">
       <property name="mongoTemplate" ref="mongoTemplate"></property>
 	</bean>
 

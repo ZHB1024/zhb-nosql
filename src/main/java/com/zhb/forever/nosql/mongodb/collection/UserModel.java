@@ -1,4 +1,4 @@
-package com.zhb.forever.mongodb.collection;
+package com.zhb.forever.nosql.mongodb.collection;
 
 import java.io.Serializable;
 

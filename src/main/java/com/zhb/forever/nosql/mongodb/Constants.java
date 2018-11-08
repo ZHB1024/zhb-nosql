@@ -1,4 +1,4 @@
-package com.zhb.forever.mongodb;
+package com.zhb.forever.nosql.mongodb;
 
 /**
 *@author   zhanghb<a href="mailto:zhb20111503@126.com">zhanghb</a>

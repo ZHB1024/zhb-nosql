@@ -1,4 +1,4 @@
-package com.zhb.forever.mongodb.client;
+package com.zhb.forever.nosql.mongodb.client;
 
 import java.util.List;
 

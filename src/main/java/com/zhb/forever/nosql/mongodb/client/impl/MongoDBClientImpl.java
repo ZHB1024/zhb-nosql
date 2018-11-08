@@ -1,20 +1,18 @@
-package com.zhb.forever.mongodb.client.impl;
+package com.zhb.forever.nosql.mongodb.client.impl;
 
 import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.data.domain.Sort;
-import org.springframework.data.domain.Sort.Order;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 
-import com.zhb.forever.mongodb.client.MongoDBClient;
+import com.zhb.forever.nosql.mongodb.client.MongoDBClient;
 
 /**
 *@author   zhanghb<a href="mailto:zhb20111503@126.com">zhanghb</a>
-*@createDate 2018年11月1日下午3:36:04
+*@createDate 2018年11月8日下午2:12:19
 */
 
 public class MongoDBClientImpl implements MongoDBClient {

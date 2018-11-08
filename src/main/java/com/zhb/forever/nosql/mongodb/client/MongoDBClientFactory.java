@@ -1,7 +1,7 @@
-package com.zhb.forever.mongodb.client;
+package com.zhb.forever.nosql.mongodb.client;
 
 import com.zhb.forever.framework.spring.bean.locator.SpringBeanLocator;
-import com.zhb.forever.mongodb.Constants;
+import com.zhb.forever.nosql.mongodb.Constants;
 
 /**
 *@author   zhanghb<a href="mailto:zhb20111503@126.com">zhanghb</a>

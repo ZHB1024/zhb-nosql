@@ -1,4 +1,4 @@
-package com.zhb.forever.mongodb;
+package com.zhb.forever.nosql.mongodb;
 
 import java.util.List;
 
@@ -7,9 +7,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.zhb.forever.mongodb.client.MongoDBClient;
-import com.zhb.forever.mongodb.client.MongoDBClientFactory;
-import com.zhb.forever.mongodb.collection.UserModel;
+import com.zhb.forever.nosql.mongodb.client.MongoDBClient;
+import com.zhb.forever.nosql.mongodb.client.MongoDBClientFactory;
+import com.zhb.forever.nosql.mongodb.collection.UserModel;
 
 
 /**
